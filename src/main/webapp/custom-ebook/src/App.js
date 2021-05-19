@@ -13,6 +13,7 @@ import AddChapterDetails from "./component/AddChapterDetails";
 import UserProfile from "./component/UserProfile";
 import PublisherProfile from "./component/PublisherProfile";
 import About from "./component/About";
+import Search from "./component/Search";
 
 
 
@@ -27,6 +28,7 @@ class App extends Component{
 
                             <Route exact path='/' component={Welcome}/>
                             <Route exact path='/SignIn' component={Welcome}/>
+                            <Route exact path='/Search' component={Search}/>
                             <Route exact path='/SignUp' component={SignUp}/>
                             <Route exact path='/Dashboard' component={Dashboard}/>
                             <Route exact path='/BookDetails' component={BookDetails}/>

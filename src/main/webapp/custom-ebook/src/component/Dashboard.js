@@ -70,6 +70,7 @@ class Dashboard extends Component {
                                 <li ><Link to="/">Home</Link></li>
                                 <li><Link to="/SignUp">About</Link></li>
                                 <li><Link to="/Dashboard">Dashboard</Link></li>
+                                <li><Link to = "/Search">Search</Link></li>
                                 <li><Link to="/" onClick={this.logout}>Logout</Link></li>
                             </ul>
                         </nav>
@@ -99,6 +100,7 @@ class Dashboard extends Component {
                                 <ul>
                                     <li><Link to="/Cart">Cart</Link></li>
                                     <li><Link to="/User">Profile</Link></li>
+                                    <li><Link to = "/Search">Search</Link></li>
                                     <li><Link to="/" onClick={this.logout}>Logout</Link></li>
                                 </ul>
                             </nav>
